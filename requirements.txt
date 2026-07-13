@@ -1,0 +1,2 @@
+SQL Server 2016 or later
+SQL Server Management Studio (SSMS) 18+
