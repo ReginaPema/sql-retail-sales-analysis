@@ -1,4 +1,4 @@
-# # <img src="https://img.icons8.com/?size=50&id=81093&format=png&color=000000" align="center"/> SQL Star Schema: Retail Sales Analysis
+# # <img src="https://img.icons8.com/?size=50&id=81093&format=png&color=000000" align="center"/> SQL Retail Sales Analysis
 ### Esquema Dimensional y Análisis Avanzado de Ventas en SQL Server
 
 > **EN** · SQL Server project for retail sales analysis of cleaning products (Cloralex, Vanish, Clorox, Blancatel, OxiClean and others) across 6 Mexican regions. Covers full DDL design with FK/PK constraints, SSMS data loading via Import Wizard, 8 data quality validations, and 16 analytical queries using window functions, CTEs, YoY growth, ABC/Pareto classification and product lifecycle status.
@@ -98,9 +98,9 @@ DIM_CATEGORY → DIM_CALENDAR → DIM_PRODUCT → DIM_SEGMENT → FACT_SALES
 ## <img src="https://img.icons8.com/?size=40&id=PhymLYNNjf3I&format=png&color=000000" align="center"/> Repository Structure / Estructura del Repositorio
 
 ```
-sql-sales-star-schema/
+sql-retail-sales-analysis/
 ├── sql/
-│   └── sql-retail-sales-analysis.sql    ← DDL + 16 queries
+│   └── sql_retail_sales_analysis.sql    ← DDL + 16 queries
 ├── README.md
 └── requirements.txt
 ```
